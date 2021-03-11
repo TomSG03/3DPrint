@@ -1,0 +1,506 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  input {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  button { 
+    border: none; 
+    outline: none; 
+  }
+  
+  @font-face { 
+    font-family: 'Open Sans'; 
+    src: url(../HTML/Font/OpenSans-Regular.woff); 
+    font-weight: 400; 
+    font-style: normal;
+  }
+  
+  @font-face { 
+    font-family: 'Open Sans'; 
+    src: url(../HTML/Font/OpenSans-Bold.woff); 
+    font-weight: 700; 
+    font-style: normal;
+  }
+   
+  .banner {
+    background-image: url('../pic/banner3d_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #666666;
+    position: relative;
+    z-index: 0;  
+  }
+  
+  .banner:after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.60;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+  }
+  
+  .menu {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 28px;
+  }
+  
+  .logo {
+    width: 180px;
+  }
+  
+  .menu-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu-list-item {
+    text-transform: uppercase;
+    padding-left: 35px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+  }
+  
+  .menu-list-item > a {
+    color: #ffffff;
+  }
+  
+  .intro-title {
+    /*padding-top: 120px;*/
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 715px;
+  }  
+  
+  .title {
+    color: #ffffff;   
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 75px;
+    font-family: 'Pt Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .wrapper {
+    width: 1170px;
+    /*display: flex;*/
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 15px;
+  }
+  
+  .main {
+    /*margin-right: 120px;*/
+    justify-content: space-around;
+  }
+  
+  aside {
+    width: 272px;  
+  }
+  
+  .post-size-picture {
+    width: 180px;
+    
+  }
+  
+  .post {
+     background-color:#ffffff
+    }
+
+  .post_catalog_from_tag {
+    display: flex;
+    flex-wrap: wrap;
+   
+  }  
+ 
+  .catalog-item {
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+
+  .post:nth-child(n+2) {
+    margin-top: 30px;
+   
+  }
+  
+  .post:last-child {
+    margin-bottom: 64px;
+  }
+  
+  .category-link {
+    text-transform: uppercase; 
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 19px;
+  }
+  
+  h2 > a {
+    color: #000000;
+  }
+  
+  .post-frame {
+    /*margin-left: 30px;*/
+    margin-bottom: 15px;
+    width: 367px; 
+  }
+  
+  .category-list-item > a {
+    color: #cc9966; 
+  }
+  
+  .category-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  
+  .frame-title {
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    /*line-height: 24px;*/
+    margin-top: 10px;
+    /*margin-bottom: 35px;*/
+    text-align: center;
+    word-wrap: break-word;
+
+  }
+  
+  .frame-date {
+    display: inline-block;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    margin-right: 13px;
+  }
+  
+  .frame-author{
+    display: inline-block;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .post-frame > p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    line-height: 22px;
+  }
+  
+  .aside-block-item {
+    margin-bottom: 60px;
+  }
+  
+  .block-item-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .block-item-title::after {
+    padding-top: 13px;
+    content: ""; 
+    display: block;
+    width: 66px; 
+    margin-left: auto;  
+    margin-right: auto;
+    border-bottom: 3px solid;
+    border-color: #e1d9bd;
+    margin-bottom: 24px;
+  }
+  
+  .post-item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .post-preview {
+    margin-left: 20px;
+  }
+  
+  .aside-size-picture {
+    width: 70px; 
+  }
+  
+  .post-date {
+    color: #a2a2a2;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 6px;  
+  }
+  
+  .post-title  {
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+
+  .post-title > a {
+    color: #000000;
+  }
+  
+  .search {
+    font-size: 0;
+  }
+  
+  .field {
+    box-sizing: border-box;
+    width: calc(100% - 48px);
+    padding: 0 18px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    height: 48px;
+    background-color: #f4f7f6;
+    border: 1px solid;
+    border-color: #f4f7f6;
+   }
+  
+  .field:focus {
+    border: 1px solid;
+    border-color: #b59f5b;
+  }
+  
+  .button {
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center center;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+    background-color: #b59f5b;
+    border: none;
+  }
+  
+  .button:hover {
+    background-color: #323232;
+  }
+  
+  .visually-hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+  } 
+  
+  .subscribsion-field {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 18px;
+    display: block;
+    font-size: 13px;
+    height: 48px;
+    background-color: #f4f7f6;
+    border: 1px solid;
+    border-color: #f4f7f6;
+  }
+  
+  .subscribsion-field:focus {
+    border: 1px solid;
+    border-color: #b59f5b;
+  }
+  
+  .subscribsion-button {
+    display: block;
+    height: 48px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #b59f5b;
+    border: none;
+    color: #ffffff;
+    margin-top: 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .subscribsion-button:hover {
+    background-color: #323232;
+  }
+  
+  .tag-searh-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+  
+  .tag-searh-list-item {
+    list-style: none;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #eeeeee;
+    padding: 6px 12px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+    font-size: 12px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .tag-searh-list-item > a  {
+    color: #000000;
+  }
+  
+  .categories-list {
+    list-style: none;
+  }
+  
+  .categories-list-item {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold; 
+    padding-bottom: 12px;
+    border-bottom: 1px solid;
+    border-color: #eeeeee;
+  }
+  
+  .categories-list-item > a {
+    color: #000000;
+  }
+  
+  .categories-list-item:nth-child(n+2) {
+    padding-top: 18px;
+  }
+  
+  sup {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold; 
+    color: #b59f5b; 
+  }
+  
+  footer {
+    text-align: right;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    /*padding: 0 15px;*/
+  }
+  
+  .articles-socials {
+    background-color: #f4f7f6;
+    margin-bottom: 75px;
+  }
+  
+  .socials {
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .socials-item {
+      margin-left: 15px;
+      margin-right: 15px;
+      display: inline-block;
+  }
+  
+  .socials-link {
+      display: inline-block;
+  }
+  
+  .socials-link {
+      width: 20px;
+      height: 20px;
+    background-repeat: no-repeat;
+      background-size: 20px;
+      background-position: center;
+  }
+  
+  .socials-link-facebook {
+      background-color: #f4f7f6;	
+      background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+  }
+  
+  .socials-link-pinterest {
+      background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+      background-color: #f4f7f6;
+  }
+  .socials-link-twitter {
+      background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
+      background-color: #f4f7f6;
+  }
+  
+  .socials-link-instagram {
+      background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
+      background-color: #f4f7f6;
+  }
+  
+  .socials-link-tumblr {
+      background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+      background-color: #f4f7f6;
+  }
+  
+  .socials-link-text {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      clip: rect(1px, 1px, 1px, 1px);
+      
+  }
+  
+  .copyrights {
+    font-size: 12px;
+    font-family: "Open sans";
+    font-weight: bold;
+  }
+  
+  .copyrights > a {
+    color: #b0b0b0;
+  }
+
+
+/*------------------------------------------------*/
+  .element {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    background: lightgreen;
+    display: inline-block;
+    margin: 5px;
+  }
+/*------------------------------------------------*/
