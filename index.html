@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Tech Master</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href='/css/reset.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href='css/reset.css'>
 
 </head>
 
@@ -15,7 +15,7 @@
   <header class="banner">
     <div class="container">
       <div class="menu">
-        <a href="#0"><img src="/pic/3D3.png" class="logo" alt="Логотип"></a>
+        <a href="#0"><img src="pic/3D3.png" class="logo" alt="Логотип"></a>
         <nav>
           <ul class="menu-list">
             <li class="menu-list-item">
@@ -52,7 +52,7 @@
 
           <div class="catalog-item">
             <div>
-              <a rel="simplebox" href="/pic/figure.jpg">
+              <a rel="simplebox" href="pic/figure.jpg">
                 <img src="/pic/figure.jpg" class="post-size-picture" alt="3D модель">
               </a>
             </div>
@@ -176,16 +176,16 @@
       </address>
       
     </footer>
-    <script src="/js/script.js"></script>
-    <script src="/js/simplebox_util.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/simplebox_util.js"></script>
  
     <script> type = "text/javascript" >
         (function () {
           var boxes = [], els, i, l;
           if (document.querySelectorAll) {
             els = document.querySelectorAll('a[rel=simplebox]');
-            Box.getStyles('simplebox_css', '/js/simplebox.css');
-            Box.getScripts('simplebox_js', '/js/simplebox.js',
+            Box.getStyles('simplebox_css', 'js/simplebox.css');
+            Box.getScripts('simplebox_js', 'js/simplebox.js',
               function () {
                 simplebox.init();
                 for (i = 0, l = els.length; i < l; ++i)
