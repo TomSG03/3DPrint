@@ -1,5 +1,6 @@
 /// <reference path="E:\0 Web Programming\Сайт\tom44\HTML\typings\globals\jquery\index.d.ts" />
 
+print('2');
 
 let prinebl = [
     [0,  'Шапка',                    'pic/figure.jpg'],
