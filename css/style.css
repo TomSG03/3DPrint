@@ -19,14 +19,14 @@
   
   @font-face { 
     font-family: 'Open Sans'; 
-    src: url(../HTML/Font/OpenSans-Regular.woff); 
+    src: url(../Font/OpenSans-Regular.woff); 
     font-weight: 400; 
     font-style: normal;
   }
   
   @font-face { 
     font-family: 'Open Sans'; 
-    src: url(../HTML/Font/OpenSans-Bold.woff); 
+    src: url(../Font/OpenSans-Bold.woff); 
     font-weight: 700; 
     font-style: normal;
   }
