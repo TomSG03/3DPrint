@@ -54,7 +54,7 @@ let prinebl = [
     [48, 'Цифра 8',                  'pic/figure.jpg'],
     [49, 'Цифра 9',                  'pic/figure.jpg'],
     [50, 'Цифра 0',                  'pic/figure.jpg'],
-    
+];    
 
 
 let catalog = [
