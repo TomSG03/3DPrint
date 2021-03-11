@@ -54,7 +54,7 @@
   }
   
   .container {
-    width: 1170px;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
@@ -94,7 +94,7 @@
     padding-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
-    width: 715px;
+    /*width: 715px;*/
   }  
   
   .title {
@@ -108,7 +108,7 @@
   }
   
   .wrapper {
-    width: 1170px;
+    max-width: 1170px;
     /*display: flex;*/
     margin-top: 64px;
     margin-left: auto;
