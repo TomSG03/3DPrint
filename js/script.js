@@ -52,6 +52,9 @@ let prinebl = [
     [48, 'Цифра 9',                  'pic/num_9.jpg'],
     [49, 'Цифра 0',                  'pic/num_0.jpg'],
     [50, 'Снежинка',                 'pic/Snowflake.jpg'],
+    [51, 'X',                        'pic/X.jpg'],
+    [51, 'B',                        'pic/B.jpg'],
+    [52, 'Яйцо',                     'pic/Яйцо.jpg'],
 ];    
 
 
