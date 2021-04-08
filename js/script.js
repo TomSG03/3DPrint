@@ -3,7 +3,7 @@
 let prinebl = [
     [0,  'Шапка',                    'pic/figure.jpg'],
     [1,  'Шапка',                    'pic/Шапка.jpg'],
-    [2,  'Варежка',                  'pic/figure.jpg'],
+    [2,  'Варежка',                  'pic/Варежка.jpg'],
     [3,  'Валенок',                  'pic/figure.jpg'],
     [4,  'Снежинка ажур (7 - 10)',   'pic/figure.jpg'],
     [5,  'Звезда',                   'pic/figure.jpg'],
