@@ -13,7 +13,7 @@ let prinebl = [
     [9,  'Елка',                     'pic/Christmas_tree.jpg'],
     [10, 'Конфета-Трость',           'pic/Candy.jpg'],
     [11, 'Домик',                    'pic/Домик.jpg'],
-    [12, 'Фонарь',                   'pic/figure.jpg'],
+    [12, 'Фонарь',                   'pic/Фонарь.jpg'],
     [13, 'Корона',                   'pic/Crown_queen_woman.jpg'],
     [14, 'Снеговик',                 'pic/Snowman.jpg'],
     [15, 'Колокольчик',              'pic/Bell.jpg'],
